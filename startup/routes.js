@@ -1,8 +1,8 @@
 const express = require("express");
-const properties = require("../routes/properties");
-const tenants = require("../routes/tenants");
-const agents = require("../routes/agents");
-const rentals = require("../routes/rentals");
+const orders = require("../routes/orders");
+const persons = require("../routes/persons");
+const terms = require("../routes/terms");
+const locations = require("../routes/locations");
 const users = require("../routes/users");
 const auth = require("../routes/auth");
 const home = require("../routes/home");
@@ -25,10 +25,10 @@ module.exports = function (app) {
   }
 
   // Routing
-  app.use("/api/properties", properties);
-  app.use("/api/tenants", tenants);
-  app.use("/api/agents", agents);
-  app.use("/api/rentals", rentals);
+  app.use("/api/orders", orders);
+  app.use("/api/persons", persons);
+  app.use("/api/terms", terms);
+  app.use("/api/locations", locations);
   app.use("/api/users", users);
   app.use("/api/auth", auth);
   app.use("/", home);

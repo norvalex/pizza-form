@@ -1,4 +1,4 @@
 {
     "jwtPrivateKey":"1234",
-    "dbConnectionString":"mongodb://127.0.0.1/proppi_test"
+    "dbConnectionString":"mongodb://127.0.0.1/pizza_form_test"
 }

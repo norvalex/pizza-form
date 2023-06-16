@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey":"proppi_jwtPrivateKey",
-    "dbConnectionString":"proppi_dbConnectionString"
+    "jwtPrivateKey":"pizza_form_jwtPrivateKey",
+    "dbConnectionString":"pizza_form_dbConnectionString"
 }
